@@ -36,12 +36,13 @@
     border-radius: 5px;
     background-color: #f7f7f7;
     color: #333;
+    resize:  vertical;  
   }
   
   form input:focus,
   form textarea:focus {
     outline: none;
-    box-shadow: 0 0 5px #333;
+    box-shadow: 0 0 5pxs #333;
   }
   
   form button {
