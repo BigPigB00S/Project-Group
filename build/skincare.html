@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skincare</title>
+    <link rel="icon" href="../imgs/logo/logo.jpg">
+    <!-- link css -->
+    <link rel=  "stylesheet" href="../style/table.css">
+    <!-- link bootstrap css -->
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.rtl.min.css">
+    <!-- link bootstrap js -->
+    <script defer src="../bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- link fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- link cart js -->
+    <script defer src="../js/cart.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <div class="container-fluid shadow fixed-top bg-white">
+        <div class="container">
+            <nav class="navbar navbar-expand-xl">
+                <div class="navbar-brand"><h1>Skincare</h1></div>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#show">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div id="show" class="collapse navbar-collapse justify-content-evenly">
+                    <ul class="list-unstyled menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Member.html">Members</a></li>
+                        <li><a class="text-danger" href="skincare.html">Skincare</a></li>
+                        <li><a href="makeup.html">Makeup</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                    <div class="d-flex">
+                        <input type="text" placeholder="Search" class="form-control " id="search">
+                        <button class="btn btn-outline-danger mx-3">Search</button>
+                        <div class="d-flex icon"> 
+                            <i class="fa-solid fa-bag-shopping fs-2"></i>
+                            <span>0</span>
+                            <a class="text-dark" href="login.html">
+                                <i class="fa-solid fa-user fs-2 mx-3"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>  
+        </div>
+    </div>
+    <!-- banner -->
+    <div class="container-fluid banner">
+        <div class="container py-5 h-75">
+            <div class="row h-100 d-flex">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 mt-5">
+                    <div class="letter mt-5">
+                        <h2 class="text-center">Welcome to</h2>
+                        <h1 class="text-center">Our Web Cosmetic Store</h1>
+                        <p id="text">Skin care is an essential component of good hygiene and infection control. It commonly involves washing using plain or antiseptic soap, application of alcohol-based products, and creams. Please Check our Skincare Product that works for your Skin<33</p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="image">
+                        <img src="../imgs/pic skincare/pink skincare(remove).png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--product show-->
+    <!-- laneige -->
+    <div class="container">
+        <div class="product">Check out our Skincare Product here</div><br>
+        <h3>Laneige</h3>
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4">
+                <div class="card">
+                    <img src="../imgs/2. Laneige/Water Bank Blue Hyaluronic Cleansing Gel.jpg" alt="laneige Cleansing Gel">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Cleanser</div>
+                        <p class="card-text">Removing impurities and makeup, leaving skin soft and refreshed without stripping moisture.</p>
+                        <p>USD 10.00</p>
+                        <button class="btn btn-danger" data-price="10.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/2. Laneige/Laneige Water Bank Blue Hyaluronic Cleansing Foam .png" alt="Foam">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Foam</div>
+                        <p class="card-text">A foaming cleanser designed to wash away dirt and makeup while infusing the skin with hydration.</p>
+                        <p>USD 11.00</p>
+                        <button class="btn btn-warning" data-price="11.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/2. Laneige/Laneige Cream Skin Toner & Moisturizer .jpg" alt="Toner">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Toner</div>
+                        <p class="card-text">A toner that doubles as a moisturizer, delivering deep hydration to dry skin.</p><br>
+                        <p>USD 17.00</p>
+                        <button class="btn btn-success" data-price="17.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/2. Laneige/Laneige Water Bank Blue Hyaluronic Serum .png" alt="Serum">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Serum</div>
+                        <p class="card-text">This hydrating serum penetrates deep into the skin to replenish moisture and enhance elasticity. </p>
+                        <p>USD 18.00</p>
+                        <button class="btn btn-dark" data-price="18.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/2. Laneige/Water Bank Blue Hyaluronic Cream Moisturizer.jpg" alt="Moisturizer">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Moisturizer</div>
+                        <p class="card-text">A moisturizer that helps locking moisture and reinforce the skin’s natural barrier. </p>
+                        <p>USD 16.00</p>
+                        <button class="btn btn-warning" data-price="16.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/2. Laneige/Hydro UV Defense EX.jpg" alt="sunscreen">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Sunscreen</div>
+                        <p class="card-text">A lightweight sunscreen offering broad-spectrum protection from UVA/UVB rays.</p>
+                        <p>USD 15.00</p>
+                        <button class="btn btn-success" data-price="15.00">Add to Bag</button>
+                    </div>
+                </div><br><br>
+            </div>
+            <!-- Innisfree -->
+            <h3>Innisfree</h3>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/3. Innisfree/Innisfree Green Tea Cleansing Oil .webp" alt="Cleansing oil">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Cleansing Oil</div>
+                        <p class="card-text">This cleansing oil gently removes makeup, impurities, and excess sebum. </p>
+                        <p>USD 12.00</p>
+                        <button class="btn btn-dark" data-price="12.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/3. Innisfree/Innisfree Green Tea Foam Cleanser .webp" alt="Foam">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Foam</div>
+                        <p class="card-text">This foam cleanser is formulated to hydrate and refresh the skin.</p><br>
+                        <p>USD 12.00</p>
+                        <button class="btn btn-warning" data-price="12.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/3. Innisfree/Innisfree Green Tea Seed Skin .webp" alt="Toner">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Toner</div>
+                        <p class="card-text">This toner is packed with green tea seeds to hydrate and soothe the skin. </p><br>
+                        <p>USD 13.00</p>
+                        <button class="btn btn-success" data-price="13.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/3. Innisfree/Green Tea Enzyme Vitamin C Brightening Serum.webp" alt="Serum">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Serum</div>
+                        <p class="card-text">A serum that deeply hydrates the skin, it helps locking moisture while boosting skin’s resilience.</p>
+                        <p>USD 18.00</p>
+                        <button class="btn btn-dark" data-price="18.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/3. Innisfree/Green Tea Seed Hyaluronic Cream.webp" alt="Moisturizer">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Moisturizer</div>
+                        <p class="card-text">This moisturizer works to lock in hydration and restore the skin’s moisture barrier.</p>
+                        <p>USD 17.00</p>
+                        <button class="btn btn-warning" data-price="17.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/3. Innisfree/Daily UV Defense Sunscreen.webp" alt="Sunscreen">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Sunscreen</div>
+                        <p class="card-text">Offers high protection from UVA and UVB rays while keeping the skin hydrated. </p>
+                        <p>USD 18.00</p>
+                        <button class="btn btn-success" data-price="18.00">Add to Bag</button>
+                    </div>
+                </div><br><br>
+            </div>
+            <!-- Etude -->
+             <h3>Etude</h3>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/4. Etude/Lip & Eye Remover .jpg" alt="Cleansing">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Cleanser</div>
+                        <p class="card-text">Removes makeup, especially around the sensitive eye area, while moisturizing the skin.</p>
+                        <p>USD 14.00</p>
+                        <button class="btn btn-dark" data-price="14.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/4. Etude/Wonder Pore Cleansing Foam  .jpg" alt="Foam">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Foam</div>
+                        <p class="card-text">This rich foam cleanser works to deeply cleanse the skin, remove impurities, and control sebum.</p>
+                        <p>USD 15.00</p>
+                        <button class="btn btn-warning" data-price="15.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/4. Etude/SoonJung pH 5.5 Relief Toner.jpg" alt="Toner">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Toner</div>
+                        <p class="card-text">This toner is formulated to soothe and hydrate irritated or sensitive skin. </p>
+                        <p>USD 15.00</p>
+                        <button class="btn btn-success" data-price="15.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/4. Etude/Moistfull Collagen Essence .jpg" alt="Serum">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Serum</div>
+                        <p class="card-text">This collagen-based serum deeply hydrates and firms the skin. </p>
+                        <p>USD 17.00</p>
+                        <button class="btn btn-dark" data-price="17.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/4. Etude/SoonJung 10-Free Moist Emulsion .jpg" alt="Moisturizer">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Moisturizer</div>
+                        <p class="card-text">A lightweight, calming emulsion that offers hydration while soothing sensitive skin. </p><br>
+                        <p>USD 18.00</p>
+                        <button class="btn btn-warning" data-price="18.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/4. Etude/Sunprise Mild Airy Finish Sun Milk SPF50+ PA+++ .jpg" alt="Sunscreen">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Sunscreen</div>
+                        <p class="card-text">This sunscreen offers broad-spectrum protection with SPF 50+ PA+++, guarding the skin against harmful UVA/UVB rays. </p>
+                        <p>USD 19.00</p>
+                        <button class="btn btn-success" data-price="19.00">Add to Bag</button>
+                    </div>
+                </div><br><br>
+            </div>
+            <!-- corsx -->
+             <h3>Corsx</h3>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/5.COSRX/COSRX AC Collection Calming Foam Cleanser.webp" alt="Cleanser">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Cleanser</div>
+                        <p class="card-text">This foaming cleanser is designed to treat acne-prone skin. </p>
+                        <p>USD 13.00</p><br>
+                        <button class="btn btn-dark" data-price="13.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/5.COSRX/COSRX Low pH Good Morning Gel Cleanser .webp" alt="Foam">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Foam</div>
+                        <p class="card-text">This gentle gel cleanser is formulated with a slightly acidic pH to help balance the skin while cleansing. </p>
+                        <p>USD 13.00</p>
+                        <button class="btn btn-warning" data-price="13.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/5.COSRX/COSRX AHA_BHA Clarifying Treatment Toner.webp" alt="Toner">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Toner</div>
+                        <p class="card-text">This exfoliating toner contains both AHA and BHA to gently remove dead skin cells and clear clogged pores. </p>
+                        <p>USD 15.00</p>
+                        <button class="btn btn-success" data-price="15.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/5.COSRX/COSRX Advanced Snail 96 Mucin Power Essence.webp" alt="Essence">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Essence</div>
+                        <p class="card-text">This essence is packed with Snail Mucin for skin-healing, hydrating, and anti-aging properties. </p>
+                        <p>USD 18.00</p>
+                        <button class="btn btn-dark" data-price="18.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/5.COSRX/COSRX Oil-Free Ultra-Moisturizing Lotion.webp" alt="Moisturizer">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Moisturizer</div>
+                        <p class="card-text">This lightweight moisturizer hydrates without leaving a greasy residue.</p><br>
+                        <p>USD 20.00</p>
+                        <button class="btn btn-warning" data-price="20.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/5.COSRX/COSRX Aloe Soothing Sun Cream SPF50+ PA+++.webp" alt="Sunscreen">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Sunscreen</div>
+                        <p class="card-text">Provides high-level sun protection with SPF 50+ PA+++ while soothing and hydrating the skin with Aloe Vera. </p>
+                        <p>USD 13.00</p>
+                        <button class="btn btn-success" data-price="13.00">Add to Bag</button>
+                    </div>
+                </div><br><br>
+            </div>
+            <!-- Rice -->
+             <h3>Rice</h3>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/6/Rice Water Bright Cleansing Oil .webp" alt="Cleanser">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Cleanser</div>
+                        <p class="card-text">This cleansing oil effectively dissolves makeup and impurities while nourishing the skin. </p>
+                        <p>USD 11.00</p>
+                        <button class="btn btn-dark" data-price="11.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/6/Rice Water Bright Foaming Cleanser.webp" alt="Foam">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Foam</div>
+                        <p class="card-text">This foam cleanser gently removes dirt and impurities, leaving the skin feeling refreshed and hydrated.</p>
+                        <p>USD 12.00</p>
+                        <button class="btn btn-warning" data-price="12.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/6/Rice & Ceramide Moisturizing Toner.webp" alt="Toner">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Toner</div>
+                        <p class="card-text">Provides a quick boost of moisture, which help retain skin’s natural moisture and prevent dehydration. </p>
+                        <p>USD 14.00</p>
+                        <button class="btn btn-success" data-price="14.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/6/Pomegranate & Collagen Volume Lifting Serum.webp" alt="Serum">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Serum</div>
+                        <p class="card-text">This serum targets signs of aging by improving elasticity and promoting skin renewal. </p><br>
+                        <p>USD 14.00</p>
+                        <button class="btn btn-dark" data-price="14.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/6/Rice & Ceramide Moisturizing Cream.webp" alt="Moisturizer">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Moisturizer</div>
+                        <p class="card-text">This ultra-hydrating cream is designed to lock in moisture, leaving the skin smooth and dewy.</p>
+                        <p>USD 15.00</p>
+                        <button class="btn btn-warning" data-price="15.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/6/Power Long-Lasting Suncream SPF50+ Pa+++.webp" alt="Sunscreen">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Sunscreen</div>
+                        <p class="card-text">This sunscreen provides high-level protection against harmful UVA/UVB rays with SPF 50+ PA+++.</p>
+                        <p>USD 15.00</p>
+                        <button class="btn btn-success" data-price="15.00">Add to Bag</button>
+                    </div>
+                </div><br><br>
+            </div>
+            <!-- Sulwhasoo -->
+             <h3>Sulwhasoo</h3>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/1/Gentle Cleansing Oil.webp" alt="Cleanser">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Cleanser</div>
+                        <p class="card-text">This cleansing oil emulsifies upon contact with water to gently dissolve makeup, sunscreen, and impurities. </p>
+                        <p>USD 13.00</p>
+                        <button class="btn btn-dark" data-price="13.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/1/Gentle Cleansing Foam.webp" alt="Foam">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Foam</div>
+                        <p class="card-text">A rich foam cleanser that removes dirt and impurities while hydrating the skin. </p><br>
+                        <p>USD 15.00</p>
+                        <button class="btn btn-warning" data-price="15.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/1/Balancing Water EX .webp" alt="Toner">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Toner</div>
+                        <p class="card-text">A gel-textured toner that acts as a hydrating layer to smooth and prep the skin. </p><br>
+                        <p>USD 15.00</p>
+                        <button class="btn btn-success" data-price="15.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/1/First Care Activating Serum.webp" alt="Serum">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Serum</div>
+                        <p class="card-text">For hydrating, improving skin texture, and maximizing the efficacy of subsequent skincare products. </p>
+                        <p>USD 18.00</p>
+                        <button class="btn btn-dark" data-price="18.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/1/Concentrated Ginseng Renewing Cream.webp" alt="Moisturizer">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Moisturizer</div>
+                        <p class="card-text">A luxurious anti-aging cream that deeply hydrates, firms, and revitalizes the skin. </p>
+                        <p>USD 22.00</p>
+                        <button class="btn btn-warning" data-price="22.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/1/Snowise Brightening UV Protector SPF 50+ PA+++ .webp" alt="Sunscreen">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Sunscreen</div>
+                        <p class="card-text">This sunscreen offers UVA/UVB protection while brightening and evening the skin tone. </p>
+                        <p>USD 20.00</p>
+                        <button class="btn btn-success" data-price="20.00">Add to Bag</button>
+                    </div>
+                </div><br><br>
+            </div>
+            <!-- Missha Time Revolution -->
+             <h3>Missha Time Revolution</h3>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/7/TIME REVOLUTION ARTEMISIA CALMING CLEANSING WATER.jpg" alt="Cleanser">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Cleanser</div>
+                        <p class="card-text">A nourishing balm-to-oil cleanser that melts away makeup while moisturizing and soothing dry skin.</p>
+                        <p>USD 15.00</p>
+                        <button class="btn btn-dark" data-price="15.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/7/SUPER AQUA ULTRA HYALON FOAMING CLEANSER.jpg" alt="Foam">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Foam</div>
+                        <p class="card-text">A gentle effective foaming cleanser that removes impurities while keeping the skin hydrated. </p>
+                        <p>USD 16.00</p>
+                        <button class="btn btn-warning" data-price="16.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/7/Time Revolution Night Repair Ampoule 5X.webp" alt="Ampoule">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Ampoule</div>
+                        <p class="card-text">A gentle exfoliating toner that preps the skin, refines texture, and brightens the complexion. </p><br>
+                        <p>USD 19.00</p>
+                        <button class="btn btn-success" data-price="19.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/7/Time Revolution The First Essence 5X.webp" alt="Essence">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Essence</div>
+                        <p class="card-text">This best-selling essence hydrates, brightens, and revitalizes skin. </p><br>
+                        <p>USD 22.00</p>
+                        <button class="btn btn-dark" data-price="22.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/7/Time Revolution Night Repair Ampoule Cream 5X.webp" alt="moisturizer">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Moisturizer</div>
+                        <p class="card-text">A lightweight cream that provides deep hydration and locks in moisture.   </p>
+                        <p>USD 25.00</p>
+                        <button class="btn btn-warning" data-price="25.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/7/sunscreen.webp" alt="Sunscreen">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Sunscreen</div>
+                        <p class="card-text">Provides broad-spectrum protection against UVA and UVB rays. </p>
+                        <p>USD 27.00</p>
+                        <button class="btn btn-success" data-price="27.00">Add to Bag</button>
+                    </div>
+                </div><br><br>
+            </div>
+            <!-- IOPE -->
+             <h3>IOPE</h3>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/8/1.jpg" alt="Cleanser">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Cleanser</div>
+                        <p class="card-text">Effectively removes impurities and makeup while hydrating the skin.</p>
+                        <p>USD 15.00</p>
+                        <button class="btn btn-dark" data-price="15.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/8/IOPE Ideal Cleansing Creamy Foam .jpg" alt="Foam">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Foam</div>
+                        <p class="card-text">This gentle foam cleanser removes dirt and impurities without stripping moisture. </p>
+                        <p>USD 15.00</p>
+                        <button class="btn btn-warning" data-price="15.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/8/2.jpg" alt="Essence">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Essence</div>
+                        <p class="card-text">A lightweight essence that hydrates, brightens, and improves skin texture. </p>
+                        <p>USD 18.00</p>
+                        <button class="btn btn-success" data-price="18.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/8/3.jpg" alt="Serum">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Serum</div>
+                        <p class="card-text">An anti-aging serum designed to improve elasticity, brighten skin, and smooth wrinkles. </p>
+                        <p>USD 19.00</p>
+                        <button class="btn btn-dark" data-price="19.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/8/IOPE Super Vital Cream Rich .png" alt="Moisturizer">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Moisturizer</div>
+                        <p class="card-text">Deeply nourishes and strengthens the skin. </p>
+                        <p>USD 20.00</p>
+                        <button class="btn btn-warning" data-price="20.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/8/IOPE UV Shield Sun Protector EX SPF 50+ PA++++ .png" alt="Sunscreen">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Suncreen</div>
+                        <p class="card-text">A lightweight sunscreen offering strong UV protection. </p>
+                        <p>USD 20.00</p>
+                        <button class="btn btn-success" data-price="20.00">Add to Bag</button>
+                    </div>
+                </div><br><br>
+            </div>
+            <!-- Zerro -->
+             <h3>Zerro</h3>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/9/Banila Co Clean It Zero Cleansing Balm Original .webp" alt="Cleanser">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Cleanser</div>
+                        <p class="card-text">A cult-favorite cleansing balm that melts into an oil to remove makeup, sunscreen, and impurities. </p>
+                        <p>USD 15.00</p>
+                        <button class="btn btn-dark" data-price="15.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/9/Banila Co Clean It Zero Foam Cleanser .webp" alt="Foam">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Foam</div>
+                        <p class="card-text">A gentle foam cleanser that effectively removes dirt and residue after cleansing balm use. </p>
+                        <p>USD 17.00</p>
+                        <button class="btn btn-warning" data-price="17.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/9/Banila Co Dear Hydration Toner .webp" alt="Toner">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Toner</div>
+                        <p class="card-text"> A hydrating toner that replenishes moisture while soothing the skin.</p><br>
+                        <p>USD 18.00</p>
+                        <button class="btn btn-success" data-price="18.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/9/Banila Co Dear Hydration Intense Essence .webp" alt="essence">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Essence</div>
+                        <p class="card-text">A lightweight serum that hydrates, soothes, and refreshes the skin. </p><br>
+                        <p>USD 20.00</p>
+                        <button class="btn btn-dark" data-price="20.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/9/Banila Co Dear Hydration Moisture Boosting Cream .png" alt="Moisturizer">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Moisturizer</div>
+                        <p class="card-text">A gel-cream moisturizer that provides long-lasting hydration and strengthens the skin barrier. </p>
+                        <p>USD 25.00</p>
+                        <button class="btn btn-success" data-price="25.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/9/Banila Co It Radiant CC Sun Base SPF 50+ PA+++ .webp" alt="sunscreen">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Sunscreen</div>
+                        <p class="card-text">A sunscreen that combines broad-spectrum UV protection with skin-brightening benefits. </p><br>
+                        <p>USD 24.00</p>
+                        <button class="btn btn-dark" data-price="24.00">Add to Bag</button>
+                    </div>
+                </div><br><br>
+            </div>
+            <!-- Neogen -->
+             <h3>Neogen</h3>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/10/Neogen Real Cica Micellar Cleansing Water .webp" alt="Cleanser">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Cleanser</div>
+                        <p class="card-text">Effectively removes makeup and impurities while soothing sensitive skin.</p>
+                        <p>USD 15.00</p>
+                        <button class="btn btn-dark" data-price="15.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/10/Neogen Real Fresh Foam Cleanser (Green Tea) .webp" alt="Foam">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Foam</div>
+                        <p class="card-text">Infused with real fermented green tea leaves to deeply cleanse and refresh the skin.  </p>
+                        <p>USD 16.00</p>
+                        <button class="btn btn-warning" data-price="16.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/10/Neogen Dermalogy Real Cica Pad .webp" alt="Tonner Pad">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Toner Pads</div>
+                        <p class="card-text">Pre-soaked pads that exfoliate, hydrate, and calm sensitive skin.  </p><br>
+                        <p>USD 18.00</p>
+                        <button class="btn btn-success" data-price="18.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/10/Neogen Dermalogy Real Vita C Serum .webp" alt="Serum">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Serum</div>
+                        <p class="card-text">Packed with stabilized Vitamin C to reduce dark spots and boost radiance. </p>
+                        <p>USD 19.00</p>
+                        <button class="btn btn-dark" data-price="19.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/10/Neogen Dermalogy Probiotics Relief Cream .webp" alt="Moisturizer">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Moisturizer</div>
+                        <p class="card-text">A nourishing cream that strengthens the skin barrier and provides deep hydration.  </p>
+                        <p>USD 20.00</p>
+                        <button class="btn btn-warning" data-price="20.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/10/Neogen Dermalogy Day-Light Protection Airy Sunscreen SPF 50+ PA+++ .webp" alt="Sunscreen">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Suncreen</div>
+                        <p class="card-text">A lightweight, hydrating sunscreen with broad-spectrum protection. </p>
+                        <p>USD 22.00</p>
+                        <button class="btn btn-success" data-price="22.00">Add to Bag</button>
+                    </div>
+                </div><br><br>
+            </div>
+            <!-- Ordinary -->
+            <h3>Ordinary</h3>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/11/The Ordinary Squalane Cleanser .png" alt="Cleanser">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Cleanser</div>
+                        <p class="card-text">A gentle, non-stripping balm-to-oil cleanser that effectively removes makeup and impurities. </p>
+                        <p>USD 13.00</p>
+                        <button class="btn btn-dark" data-price="13.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/11/The Ordinary Glucoside Foaming Cleanser .png" alt="Foam">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Foam</div>
+                        <p class="card-text">A pH-balanced foaming cleanser that gently removes dirt and oil without disrupting the skin barrier. </p>
+                        <p>USD 13.00</p>
+                        <button class="btn btn-warning" data-price="13.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/11/toner.jpg" alt="Toner">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Toner</div>
+                        <p class="card-text">An exfoliating toner that targets uneven texture, dullness, and fine lines. </p><br>
+                        <p>USD 15.00</p>
+                        <button class="btn btn-success" data-price="15.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/11/serum.png" alt="Serum">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Serum</div>
+                        <p class="card-text">A best-selling serum that regulates sebum production, minimizes pores, and reduces blemishes. </p>
+                        <p>USD 20.00</p>
+                        <button class="btn btn-dark" data-price="20.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/11/The Ordinary Natural Moisturizing Factors + HA .webp" alt="Moisturizer">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Moisturizer</div>
+                        <p class="card-text">A lightweight, non-greasy moisturizer that provides long-lasting hydration.  </p>
+                        <p>USD 20.00</p>
+                        <button class="btn btn-warning" data-price="20.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/11/The Ordinary Mineral UV Filters SPF 30 with Antioxidants .avif" alt="Sunscreen">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Suncreen</div>
+                        <p class="card-text">A mineral-based sunscreen with broad-spectrum UV protection.  </p><br>
+                        <p>USD 20.00</p>
+                        <button class="btn btn-success" data-price="20.00">Add to Bag</button>
+                    </div>
+                </div><br><br>
+            </div>
+            <!-- Klavuu -->
+            <h3>Klavuu</h3>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/12/klavuu-pure-pearlsation-divine-pearl-cleansing-oil_1024x1024.webp" alt="Cleanser">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Cleanser</div>
+                        <p class="card-text">Removes makeup, sunscreen, and impurities while nourishing the skin. </p><br>
+                        <p>USD 15.00</p>
+                        <button class="btn btn-dark" data-price="15.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/12/Klavuu Pure Pearlsation Revitalizing Facial Cleansing Foam .webp" alt="Foam">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Foam</div>
+                        <p class="card-text">A rich foaming cleanser that gently exfoliates and brightens the skin.  </p><br>
+                        <p>USD 15.00</p>
+                        <button class="btn btn-warning" data-price="15.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/12/Klavuu White Pearlsation Revitalizing Pearl Treatment Toner.webp" alt="Toner">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Toner</div>
+                        <p class="card-text">A hydrating and brightening toner that preps the skin for better absorption of skincare products. </p>
+                        <p>USD 18.00</p>
+                        <button class="btn btn-success" data-price="18.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/12/Klavuu White Pearlsation Special Divine Pearl Serum .jpg" alt="Serum">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Serum</div>
+                        <p class="card-text">Brightening and anti-aging serum infused with Pearl Extract to promote radiance and reduce dark spots. </p>
+                        <p>USD 19.00</p>
+                        <button class="btn btn-dark" data-price="19.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/12/Klavuu White Pearlsation Enriched Divine Pearl Cream .webp" alt="Moisturizer">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Moisturizer</div>
+                        <p class="card-text">A nourishing cream that brightens the complexion and deeply moisturizes the skin. </p>
+                        <p>USD 20.00</p>
+                        <button class="btn btn-warning" data-price="20.00">Add to Bag</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 mt-4"  >
+                <div class="card">
+                    <img src="../imgs/12/Klavuu Urban Pearlsation High Coverage UV Protection SPF 50+ PA++++ .jpg" alt="Sunscreen">
+                    <div class="card-body p-3">
+                        <div class="display-5 mb-2">Suncreen</div>
+                        <p class="card-text">A lightweight, high-protection sunscreen that offers a subtle tone-up effect.</p>
+                        <p>USD 20.00</p>
+                        <button class="btn btn-success" data-price="20.00">Add to Bag</button>
+                    </div>
+                </div><br><br>
+            </div>
+    <!--footer-->
+    <footer>
+        <div class="footer">
+            <h3>Contact Us</h3><br>
+            <h5><i class="fa-brands fa-square-instagram"></i> : lilpn18</h4>
+            <h5><i class="fa-brands fa-telegram"></i> : lilpn18</h5>
+            <h5><i class="fa-brands fa-facebook"></i> : Pheakna Rin</h5>
+            <h5><i class="fa-solid fa-phone"></i> : +855 96 911 4280</h4><br><hr>
+        </div>
+        <div class="copyright"><p>Copyright &copy; 2024 Web Cosmetic - All Rights Reserved</p></div>
+    </footer>
+</body>
+</html>
